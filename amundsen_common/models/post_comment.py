@@ -12,7 +12,7 @@ class PostCommentSummary:
     post_url: Optional[str] = []
 
 
-class DashboardSummarySchema(AttrsSchema):
+class PostCommentSummarySchema(AttrsSchema):
     class Meta:
         target = PostCommentSummary
         register_as_scheme = True
