@@ -78,6 +78,14 @@ class UserSchema(AttrsSchema):
             else:
                 data['display_name'] = data.get('full_name')
 
+        # microsoft login
+        try:
+            data['full_name'] = data['name']
+            data['first_name'] = data.get('given_name') or data['name'].split()[0]
+            data['last_name'] = data.get('family_name') or data['name'].split()[-1]
+        except KeyError:
+            pass
+
         return data
 
     @validates_schema
