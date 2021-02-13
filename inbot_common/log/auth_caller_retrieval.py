@@ -5,7 +5,7 @@ import getpass
 
 from flask import current_app as flask_app
 
-from amundsen_common.log.caller_retrieval import BaseCallerRetriever
+from inbot_common.log.caller_retrieval import BaseCallerRetriever
 
 
 class AuthCallerRetrieval(BaseCallerRetriever):

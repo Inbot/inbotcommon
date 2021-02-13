@@ -4,7 +4,7 @@
 from flask import current_app as flask_app
 from flask import request
 
-from amundsen_common.log.caller_retrieval import BaseCallerRetriever
+from inbot_common.log.caller_retrieval import BaseCallerRetriever
 
 CALLER_HEADER_KEY = 'CALLER_HEADER_KEY'
 

@@ -10,8 +10,8 @@ from datetime import datetime, timezone, timedelta
 
 from typing import Any, Dict, Callable
 from flask import current_app as flask_app
-from amundsen_common.log import action_log_callback
-from amundsen_common.log.action_log_model import ActionLogParams
+from inbot_common.log import action_log_callback
+from inbot_common.log.action_log_model import ActionLogParams
 
 LOGGER = logging.getLogger(__name__)
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)  # use POSIX epoch

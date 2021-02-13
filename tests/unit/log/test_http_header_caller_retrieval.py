@@ -6,8 +6,8 @@ import unittest
 import flask
 from mock import patch
 
-from amundsen_common.log import http_header_caller_retrieval
-from amundsen_common.log.http_header_caller_retrieval import HttpHeaderCallerRetrieval
+from inbot_common.log import http_header_caller_retrieval
+from inbot_common.log.http_header_caller_retrieval import HttpHeaderCallerRetrieval
 
 app = flask.Flask(__name__)
 

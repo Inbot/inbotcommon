@@ -12,7 +12,7 @@ from typing import Callable, List, Any
 
 from pkg_resources import iter_entry_points
 
-from amundsen_common.log.action_log_model import ActionLogParams
+from inbot_common.log.action_log_model import ActionLogParams
 
 LOGGER = logging.getLogger(__name__)
 

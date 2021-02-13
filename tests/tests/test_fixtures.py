@@ -3,14 +3,14 @@
 
 import unittest
 
-from amundsen_common.tests.fixtures import (next_application, next_col_type,
+from inbot_common.tests.fixtures import (next_application, next_col_type,
                                             next_columns, next_database,
                                             next_description,
                                             next_description_source,
                                             next_descriptions, next_int, next_item,
                                             next_range, next_string, next_table,
                                             next_tag, next_tags, next_user)
-from amundsen_common.models.table import Column, ProgrammaticDescription, Stat
+from inbot_common.models.table import Column, ProgrammaticDescription, Stat
 
 
 class TestFixtures(unittest.TestCase):

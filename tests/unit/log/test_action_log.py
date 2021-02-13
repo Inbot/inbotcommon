@@ -8,8 +8,8 @@ from typing import Generator, Any
 
 import flask
 
-from amundsen_common.log import action_log, action_log_callback
-from amundsen_common.log.action_log import action_logging, get_epoch_millisec
+from inbot_common.log import action_log, action_log_callback
+from inbot_common.log.action_log import action_logging, get_epoch_millisec
 
 app = flask.Flask(__name__)
 

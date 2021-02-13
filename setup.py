@@ -4,14 +4,14 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='amundsen-common',
+    name='inbot-common',
     version='0.5.9',
-    description='Common code library for Amundsen',
+    description='Common code library for Inbot. Forked from amundsen-io/amundsencommon.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/amundsen-io/amundsencommon',
-    maintainer='Amundsen TSC',
-    maintainer_email='amundsen-tsc@lists.lfai.foundation',
+    url='https://github.com/Inbot/amundsencommon',
+    maintainer='Aarni',
+    maintainer_email='aarni.alasaarela@gmail.com',
     packages=find_packages(exclude=['tests*']),
     dependency_links=[],
     install_requires=[
@@ -34,5 +34,5 @@ setup(
         'marshmallow>=2.15.3,<=3.6'
     ],
     python_requires=">=3.6",
-    package_data={'amundsen_common': ['py.typed']},
+    package_data={'inbot_common': ['py.typed']},
 )

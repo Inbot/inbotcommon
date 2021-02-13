@@ -4,10 +4,10 @@
 import string
 from typing import Any, List, Optional
 
-from amundsen_common.models.table import (Application, Column,
+from inbot_common.models.table import (Application, Column,
                                           ProgrammaticDescription, Stat, Table,
                                           Tag)
-from amundsen_common.models.user import User
+from inbot_common.models.user import User
 
 
 class Fixtures:
