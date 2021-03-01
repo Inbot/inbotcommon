@@ -23,6 +23,7 @@ class User:
     #  In case if there is only email, id could be email.
     #  All the transactions and communication will be handled by ID
     user_id: Optional[str] = None
+    tenant_id: Optional[str] = None
     email: Optional[str] = None
     first_name: Optional[str] = None
     last_name: Optional[str] = None

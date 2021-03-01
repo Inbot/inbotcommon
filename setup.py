@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='inbot-common',
-    version='0.5.9',
+    version='0.5.10',
     description='Common code library for Inbot. Forked from amundsen-io/amundsencommon.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
