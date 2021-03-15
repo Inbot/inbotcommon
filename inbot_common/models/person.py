@@ -12,7 +12,6 @@ class PersonSummary:
     headline: Optional[str] = None
     job_titles: List[str] = attr.ib(factory=list)
     company_names: List[str] = attr.ib(factory=list)
-    company_urls: List[str] = attr.ib(factory=list)
     description: Optional[str] = None
     location: Optional[str] = None
 
